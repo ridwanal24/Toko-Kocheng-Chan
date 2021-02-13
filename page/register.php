@@ -1,7 +1,7 @@
 <div class="container py-5">
     <div class="row">
         <div class="col"></div>
-        <div class="col-5">
+        <div class="col-5" style="min-width: 500px;">
             <div class="border rounded px-5 py-4 shadow-sm">
                 <h1>Buat Akun</h1>
                 <p class="text-muted">Silahkan isi form dibawah untuk membuat akun baru</p>
@@ -43,7 +43,7 @@
                     </div>
                 </form>
                 <hr>
-                <small>Sudah memiliki akun? Silahkan ke <a href="<?= $base . "?page=login" ?>"> Halaman Login</a></small>
+                <small class="text-muted">Sudah memiliki akun? Silahkan ke <a href="<?= $base . "?page=login" ?>"> Halaman Login</a></small>
             </div>
         </div>
         <div class="col"></div>
