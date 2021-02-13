@@ -12,6 +12,7 @@
 <body>
     <!-- SESSION START -->
     <?php
+    $base = "http://localhost/Private Project/Toko-Kocheng-Chan/";
     session_start();
     // login check
     ?>
@@ -65,6 +66,7 @@
     </footer>
     <!-- footer end -->
     <!-- script -->
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
